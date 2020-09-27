@@ -1,0 +1,117 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<!-- Card deck instructions found at https://v4-alpha.getbootstrap.com/components/card/#card-columns -->
+<div class="text-center">
+    <h1 class="display-4"><span class="badge badge-primary">RecruitCat, Inc.</span></h1>
+    <p><strong>Creating Tomorrow's Future, Today!</strong></p>
+</div>
+
+<table style="margin-left:auto;margin-right:auto;">
+    <thead>
+        <head>
+            <style>
+                table th, table td {
+                    border: 1px solid black;
+                }
+            </style>
+        </head>
+        <tr>
+            <th>
+                <div class=" text-center"> 10008 Meadow Hills Drive, West Chester OH 45241 </div>
+            </th>
+            <th>
+                <div class="text-center">Main Office Line: (513) 827-1824</div>
+            </th>
+            
+        </tr>
+    </thead>
+</table>
+
+<div class="container">
+    <div class="row text-center">
+        <p style="color:dodgerblue">At RecruitCat, we pride ourselves on being one of the best recruiting services in the country. Our proprietarty matching algorithm helps businesses find the perfect candidates for their needs with little work required by the applicants or businesses. Clients include small and large businesses, including several Fortune 500 companies around the country.</p>
+    </div>
+    <div class="row">
+        <p><strong>Our services are...</strong></p>
+    </div>
+    <div class="row">
+        <div class="col-sm text-center">
+            <h3><span class="badge badge-pill badge-primary">...Fast</span></h3>
+        </div>
+        <div class="col-sm text-center">
+            <h3><span class="badge badge-pill badge-primary">...Reliable</span></h3>
+        </div>
+        <div class="col-sm text-center">
+            <h3><span class="badge badge-pill badge-primary">...Lasting</span></h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm text-center">
+            <p>As soon as a job is posted, our system begins searching for qualified candidates. 85% of jobs posted are filled within 2 weeks!</p>
+        </div>
+        <div class="col-sm text-center">
+            <p>We are constantly updating our matching algorithms to create a robust system that will always find the best candidates for your business.</p>
+        </div>
+        <div class="col-sm text-center">
+            <p>Candidates matched through our system have a proven record of staying with our clients longer than any other staffing solution.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm text-center">
+            <p><strong>Explore our offerings below and see why our clients keep coming back to RecruitCat!</strong></p>
+        </div>
+    </div>
+</div>
+
+<div class="card-deck">
+    <div class="card" style="width: 18rem;">
+        <img src="https://minutes.co/wp-content/uploads/2019/05/recruiting-candidates.png" class="card-img-top" />
+        <div class="card-body">
+            <h5 class="card-title"><strong>Post a Job</strong></h5>
+            <p class="card-text">Publish your job in our system and see how quickly our algorithm finds qualified candidates for your business!</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><em>"I posted my job on Monday and was already interviewing by the end of the week. RecruitCat found me so many good candidates I had a hard time deciding between them all!"</em><strong>-John Miller, HR Specialist at MillerCorp</strong></li>
+        </ul>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://2e8ram2s1li74atce18qz5y1-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/Apply-for-Job-Search-Dice-1024x640.png" class="card-img-top" />
+        <div class="card-body">
+            <h5 class="card-title"><strong>Find a Job</strong></h5>
+            <p class="card-text">Looking for a position? Create a RecruitCat profile here and open the door to opportunities from the companies you want to work for!</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><em>"I was struggling to find a position I liked, but RecruitCat made it so easy to match with companies I was actually interested in working for."</em><strong>-Rodney Smith, Business Analyst at Kroger</strong></li>
+        </ul>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://hiretulane.tulane.edu/sites/hiretulane.tulane.edu/files/images/mock%20interviews_1614_pbc-scr.jpg" class="card-img-top" />
+        <div class="card-body">
+            <h5 class="card-title"><strong>Candidate Preparation</strong></h5>
+            <p class="card-text">With a RecruitCat profile, you will gain access to free resume reviews, mock interviews and advice from professionals. We will do everything we can to get you ready to land that big position!</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><em>"I was really nervous when I was invited to interview for Microsoft, but the RecruitCat team walked me through the whole process and helped my prepare for eveything I faced during the process."</em><strong>-Michael Michaelson, Software Engineer at Microsoft</strong></li>
+        </ul>
+    </div>
+</div>
+
+<div class="card-deck">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title"><strong>Sign Up Now!</strong></h5>
+            <p class="card-text">Whether you're a business looking for qualified candidates or are seeking a new job, our services provide everything you need to create organizational success that lasts. Create a RecruitCat profile here to get started today!</p>
+            <p class="card-text">Our client services specialist Steve Stevenson is standing by to answer any questions you have about the RecruitCat system and its offerings. Steve can be reached at:</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Phone:</strong> (513) 224-6297</li>
+            <li class="list-group-item"><strong>Email:</strong> steves1@wci.org</li>
+            <li class="list-group-item"><strong>Hours:</strong> M-F 7:30 AM - 4:30 PM EST</li>
+        </ul>
+    </div>
+</div>
